@@ -23,3 +23,24 @@ Web-developer since 2002 year. I have much experience with JavaScript from ES3 t
 * Webpack
 * IntelliJ IDEA, VSCode
 * Adobe Photoshop, Adobe Premiere
+
+## Code example:
+```
+class BlockedCheckbox{
+  element = document.getElementById('blocking_checkbox');
+  constructor() {
+    if (this.element) {
+      this.element.addEventListener('change', () => {
+        let changeEvent = new Event('dataChanged');
+        this.element.dispatchEvent(changeEvent);
+      })
+    }
+  }
+  elementValue()
+  {
+    return this.element.checked ? "false" : "true";
+  }
+}
+
+export {BlockedCheckbox}
+```
