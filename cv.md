@@ -10,3 +10,16 @@
 
 ## About Me:
 Web-developer since 2002 year. I have much experience with JavaScript from ES3 to ES6. I have been codding  on Perl, PHP, Java etc. Now I'm learning Node.JS. I like old projects, foreign and legacy code and control both and FrontEnd and BackEnd. But if I must choice, I'll prefer FrontEnd. I have been programming from my childhood, and now have more then 15 years of experience in codding on different languages, adding new features and fixing bugs in dozens of applications. I'd want to be useful in improve quality and functionality of applications in modern company.
+
+***
+## Skills:
+* HTML
+* CSS, SCSS
+* JavaScript, Typescript  
+* Java Basics (jsp, velocity, vaadin, JSON processing, Android Apps)
+* Node.JS Basics
+* Python Basics
+* PHP, Perl, MySQL
+* Webpack
+* IntelliJ IDEA, VSCode
+* Adobe Photoshop, Adobe Premiere
