@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="container container__header">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#contact">Contacts</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code-example">Code</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#work-experience">Experience</a></li>
+          <li><a href="#some-projects">Projects</a></li>
+          <li><a href="#languagess">Languages</a></li>
+          </гl>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="contact-information__wrapper">
+        <div class="foto__wrapper">
+          <img src="foto_m.jpg" alt="foto" />
+        </div>
+        <div class="all-contacts__wrapper">
+          <h1>Anna Kniazeva</h1>
+          <h2 id="contact">Contact information</h2>
+          <ul class="one-list contact-information__list">
+            <li>Location: Saint-Petersburg, Russia</li>
+            <li>E-mail: <a href="mailtio:alattery@gmail.com">alattery@gmail.com</a></li>
+            <li>Telegram: @annaKn</li>
+            <li>GitHub: <a target="_blank" href="https://github.com/annTerry">annTerry</a></li>
+            <li>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/anna-kniazeva-23b732234/">Anna Kniazeva</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="about-me__wrapper">
+        <h2 id="about-me">About Me:</h2>
+        <p>Web-developer since 2002 year. I have much experience with JavaScript from ES3 to ES6. I have been codding on
+          Perl,
+          PHP, Java etc. Now I’m learning Node.JS. I like old projects, foreign and legacy code and control both and
+          FrontEnd
+          and BackEnd. But if I'd choose, I’ll prefer FrontEnd. I have been programming since my childhood, and now I
+          have
+          more then 15 years of experience in coding in different languages, adding new features and fixing bugs in
+          dozens of
+          applications. I’d want to be useful in improvement of quality and creation new functionalities of applications in modern company.
+        </p>
+      </section>
+
+      <section class="skills__wrapper">
+        <h2 id="skills">Skills:</h2>
+        <ul class="one-list skills__list">
+          <li>HTML</li>
+          <li>CSS, SCSS</li>
+          <li>JavaScript, Typescript</li>
+          <li>Java Basics (jsp, velocity, JSON processing, Android Apps)</li>
+          <li class="skills__minor">Node.JS Basics</li>
+          <li class="skills__minor">Python Basics</li>
+          <li class="skills__minor">PHP, Perl, MySQL</li>
+          <li class="skills__minor">Webpack</li>
+          <li class="skills__minor">IntelliJ IDEA, VSCode</li>
+          <li class="skills__minor">Adobe Photoshop, Adobe Premiere</li>
+        </ul>
+      </section>
+
+      <section class="code-example__wrapper">
+        <h2 id="code-example">Code example:</h2>
+        <div>
+          <pre><code>export default class BlockedCheckbox {
+  element = document.getElementById('blocking_checkbox');
+
+  constructor() {
+    if (this.element) {
+      this.element.addEventListener('change', () => {
+        const changeEvent = new Event('dataChanged');
+        this.element.dispatchEvent(changeEvent);
+      });
+    }
+  }
+
+  elementValue() {
+    return this.element.checked ? 'false' : 'true';
+  }
+}</code></pre>
+        </div>
+      </section>
+
+      <section class="education__wrapper">
+        <h2 id="education">Education</h2>
+        <ul class="one-list education__list">
+          <li><b>2003-2009</b> Saint-Petersburg State University of Aerospace Instrumentation
+            <ul class="secondary-list">
+              <li>Software for computing complexes and computer-aided systems</li>
+              <li>Computer-aided systems of information processing and management</li>
+            </ul>
+          </li>
+          <li><b>1997 - 2002</b> Saint-Petersburg State University of Water Communications
+            <ul class="secondary-list">
+              <li>Financial and Credit</li>
+            </ul>
+          </li>
+          <li><b>2001 - 2002</b> MAOV. Web-developer course</li>
+          <li><b>2022</b> RS_School JavaScript/Front-end (3,406.3 Score points)</li>
+          <li><b>2022</b> RS_School NodeJS (in progress)</li>
+        </ul>
+      </section>
+
+      <section class="work-eperience__wrapper">
+        <h2 id="work-experience">Work Experience</h2>
+        <ul class="one-list education__list">
+          <li><b>2008 - Present:</b> Favor-IT, Web-developer
+            <ul class="secondary-list">
+              <li><a target="_blank"
+                  href="https://web.archive.org/web/20171002012320/http://cikv.ru/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%B2%D0%BE%D0%B4%D1%8B_%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3">Cikv.ru
+                  in Web.archive</a></li>
+            </ul>
+          </li>
+          <li><b>2002 - 2008:</b> DiscTrade, Content Manager
+            <ul class="secondary-list">
+              <li><a target="_blank" href="https://web.archive.org/web/20060207015516/http://www.rightsite.ru/">Site in Web.archive</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="some-projects__wrapper">
+        <h2 id="some-projects">Some Projects</h2>
+        <ul class="one-list some-projects__list">
+          <li><a target="_blank" href="https://rolling-scopes-school.github.io/annterry-JSFE2022Q1/store/">Simple Store</a></li>
+          <li><a target="_blank" href="https://rolling-scopes-school.github.io/annterry-JSFE2022Q1/shelter/pages/main/index.html">Pet
+              Shelter</a></li>
+        </ul>
+      </section>
+      <section class="languages__wrapper">
+        <h2 id="languages">Languages:</h2>
+        <ul class="one-list languages__list">
+          <li class="with-img">English - Upper-intermediate <img class="english-in-li" src="english.png" alt="ef cert"/><div class="show-img-bigger"></div></li>
+          <li>Greek - Base</li>
+          <li>Russian - Native</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <a href="https://github.com/annTerry" target="_blank" class="footer__icon MyGithub">© 2022</a>
+    <a href="https://rs.school/js/" target="_blank" class="footer__icon RSSchool"></a>
+  </footer>
+</body>
+
+</html>
