@@ -51,6 +51,7 @@ a {
 a:hover {
   color: var(--green-link-color-hover);
   text-decoration: underline;
+  transition: 0.35s;
 }
 
 h1 {
@@ -137,6 +138,7 @@ color: var(--green-link-color);
 .nav-links li a:hover {
 text-decoration: underline;
 color: var(--green-link-header-color-hover);
+transition: 0.35s;
 }
 
 .contact-information__wrapper {
@@ -223,6 +225,7 @@ img.english-in-li:hover ~ .show-img-bigger{
   z-index: 100;
   width: 100px;
   height: 100px;
+  transition: 0.25s;
 }
 
 footer {
@@ -263,4 +266,5 @@ a.RSSchool {
 
 footer a:hover{
   color: var(--green-link-header-color-hover);
+  transition: 0.35s;
 }
